@@ -8,3 +8,5 @@ Two files will be created:
 3- Run UseTrainedModel to use the built model for predicting the class of any image, existing on the computer 
 4- Run app.py, which is a api-enabled app to receive image by api and return its predicted label.
 5- The model accuracy varies according to random selection of train/test sets, but it is generally in range (0.83 to 0.95).
+6- The url to send the image to the app.py should be consistent with the following format:
+http://localhost:5000/predict?image
